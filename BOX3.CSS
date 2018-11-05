@@ -1,0 +1,117 @@
+.BOX3{
+	margin: 0 auto;
+	width: 100%;
+	height: 300px;
+	background:#14324b;
+}
+.BOX3 .BOX3-1{
+	width: 33.3%;
+	height: 300px;
+	float: left;
+	background: #1e4045;
+}
+.BOX3 .BOX3-1 h3{
+	margin-top: 0px;
+	width: 100%;
+	height: 80px;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 140px;
+	font-family: arial;
+	margin-bottom: 8px;
+	float: left;
+
+}
+.BOX3 .BOX3-1 .Anh{
+	width: 100px;
+    height: 100px;
+    margin-bottom: -11px;
+    float: left;
+    margin-left: 37%;
+}
+.BOX3 .BOX3-1 .Anh img{
+	width: 100%;
+	height: 100%;
+	
+}
+.BOX3 .BOX3-1 h4{
+	width: 100%;
+	text-align: center;
+	font-family: arial;
+	font-size: 17px;
+	color: #9d6016;
+	float: left;
+}
+.BOX3 .BOX3-1 p{
+    width: 80%;
+    font-size: 11px;
+    font-family: arial;
+    text-align: center;
+    margin-top: -21px;
+    margin-left: 32px;
+    float: left;
+    color: #ccc;
+}
+.BOX3 .BOX3-1 a{
+	width: 15%;
+	padding: 3px 3px;
+	float: left;
+	margin-left: 43%;
+	 font-family: arial;
+	 font-size: 14px;
+	 text-decoration: none;
+	 display: block;
+	 color: #fff;
+
+}
+.BOX3 .BOX3-1 a:hover{
+	color: green;
+
+}
+@media screen and (max-width: 576px) {
+	.BOX3{
+	margin: 0 auto;
+	width: 100%;
+	height: 600px;
+	background: green;
+}
+.BOX3 .BOX3-1{
+	width: 100%;
+	height: 300px;
+	float: left;
+	background: #2d1f1f
+}
+.BOX3 .BOX3-1 .Anh img{
+	width: 100px;
+	height: 100px;
+	margin-bottom: -10px;
+	 float: left;
+	
+}
+
+}
+@media screen and (max-width: 480px){
+		.BOX3{
+	margin: 0 auto;
+	width: 100%;
+	height: 200%;
+	background: green;
+}
+.BOX3 .BOX3-1{
+	width: 100%;
+	height: 100%;
+	float: left;
+	background: #2d1f1f
+}
+.BOX3 .BOX3-1 .Anh img{
+	width: 100px;
+	height: 100px;
+	margin-bottom: -10px;
+	 float: left;
+	
+}
+
+}
+}
