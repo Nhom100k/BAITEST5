@@ -1,0 +1,277 @@
+.page-citypricing
+{	position:relative;
+	margin:auto;
+	width: 90%;
+	height: auto;
+}
+.page-citypricing .title
+{
+	width: 100%;
+	height: 130px;
+	background: blue;
+	background: none;
+
+}
+.page-citypricing .title h2
+{	position: absolute;
+	left: 500px;
+	float: left;
+	font-family: sans-serif;
+}
+.page-citypricing .title h4
+{
+	position: absolute;
+	float: left;
+	top: 40px;
+	left: 540px;
+	color: #7777;
+	font-family: sans-serif;
+}
+.page-citypricing .asia
+{
+	width: 100%;
+	height: 330px;
+	background: red;
+	background: none;
+}
+.page-citypricing .asia .picture
+{
+	width: 100%;
+	height: 40%;
+	background: blue;
+}
+.page-citypricing .asia .picture img
+{
+	width: 100%;
+	height: 100%;
+}
+.page-citypricing .asia .text
+{	
+	float: left;
+	width: 100%;
+	height: 60%;
+	background: pink;
+	
+}
+.page-citypricing .asia .text .left
+{
+	width: 50%;
+	float: left;
+	
+}
+.page-citypricing .asia .text .right
+{	float: left;
+	width: 50%;
+	text-align: right;
+}
+.page-citypricing .asia .text h3
+{
+	text-align: center;
+}
+.page-citypricing .asia .text h5
+{
+	text-align: center;
+}
+.page-citypricing .asia .text  .card
+{	position: absolute;
+	left: 10px;
+	top: 303px;
+	border-radius: 0% 10% 10% 10%;
+	text-align: center;
+	background: red;
+	width: 170px;
+	height: 25px;
+}
+.page-citypricing .asia .text  .card a
+{	line-height: 20px;
+	text-decoration: none;
+}
+.page-citypricing .asia .text  .card:hover
+{	transition: 1s;
+	background: blue;
+}
+.page-citypricing .asia .item1
+{	position: absolute;
+	left:13%;
+	width: 200px;
+	height: 330px;
+	background: yellow;
+	background: none;
+}
+.page-citypricing .asia .item2
+{	position: absolute;
+	left:33%;
+	width: 200px;
+	height: 330px;
+	background: yellow;
+	background: none;
+}
+.page-citypricing .asia .item3
+{	position: absolute;
+	left:53%;
+	width: 200px;
+	height: 330px;
+	background: yellow;
+	background: none;
+}
+.page-citypricing .asia .item4
+{	position: absolute;
+	left:73%;
+	width: 200px;
+	height: 330px;
+	background: yellow;
+	background: none;
+}
+/*Thiết Bị 480px*/
+@media screen and (max-width: 480px)
+{
+	.page-citypricing
+	{	position: relative;
+		width: 100%;
+		
+	}
+	.page-citypricing .title
+	{
+		width: 100%;
+		height: 100px;
+
+	}
+	.page-citypricing .title h2
+	{
+		position: absolute;
+		left: 34%;
+		font-size: 25px;
+		top: -15px;
+	}
+	.page-citypricing .title h4
+	{
+		position: absolute;
+		left: 43%;
+		font-size: 20px;
+		top: 15px;
+	}
+	.page-citypricing .asia
+	{
+		position: absolute;
+		width: 100%;
+		background: red;
+		background: none;
+	}.page-citypricing .asia .picture
+	{
+		height: 50%;
+	}
+	.page-citypricing .asia .text	
+	{
+		height: 50%;
+
+	}
+	.page-citypricing .asia .text .card 
+	{
+		position: absolute;
+		left: 30%;
+	}
+	.page-citypricing .asia .item1
+	{	position: absolute;
+		width: 100%;
+		
+		left: 0%;
+	}
+	.page-citypricing .asia .item2
+	{
+		position: absolute;
+		width: 100%;
+		top: 100%;
+		left: 0%;
+	}
+	.page-citypricing .asia .item3
+	{
+		position: absolute;
+		width: 100%;
+		top: 200%;
+		left: 0%;
+	}
+	.page-citypricing .asia .item4
+	{
+		position: absolute;
+		width: 100%;
+		top: 300%;
+		left: 0%;
+	}
+}
+/*Thiết Bị 560px*/
+@media screen and (max-width: 568px)
+{
+	.page-citypricing
+	{	position: relative;
+		width: 100%;
+		
+	}
+	.page-citypricing .title
+	{
+		width: 100%;
+		height: 100px;
+
+	}
+	.page-citypricing .title h2
+	{
+		position: absolute;
+		left: 34%;
+		font-size: 25px;
+		top: -15px;
+	}
+	.page-citypricing .title h4
+	{
+		position: absolute;
+		left: 43%;
+		font-size: 20px;
+		top: 15px;
+	}
+	.page-citypricing .asia
+	{
+		position: absolute;
+		width: 100%;
+		background: red;
+		background: none;
+	}
+	.page-citypricing .asia .picture
+	{
+		height: 40%;
+	}
+	.page-citypricing .asia .text	
+	{
+		height: 60%;
+
+	}
+	.page-citypricing .asia .text .card 
+	{
+		position: absolute;
+		left: 32%;
+	}
+	.page-citypricing .asia .item1
+	{	position: absolute;
+		width: 100%;
+		
+		left: 0%;
+	}
+	.page-citypricing .asia .item2
+	{
+		position: absolute;
+		width: 100%;
+		top: 100%;
+		left: 0%;
+	}
+	.page-citypricing .asia .item3
+	{
+		position: absolute;
+		width: 100%;
+		top: 200%;
+		left: 0%;
+	}
+	.page-citypricing .asia .item4
+	{
+		position: absolute;
+		width: 100%;
+		top: 300%;
+		left: 0%;
+	}
+}
