@@ -15,7 +15,7 @@
 	height:100%;
 }
 .boxlogo h1{
-	width: 100%;
+	width: 60%;
 	font-weight: 100;
     float: left;
     margin: 0;
@@ -36,38 +36,40 @@
 	height:100%;
 }
 .bil-gach{
-	float: right;
+	float: left;
 	display: none;
 	width: 16%;
 	height:100%;
+	margin-top: -200px;
 }
 .bil-gach .gach{
-	margin: 23% 10%;
+	float: left;
+	margin: 5% 10%;
 	width: 80%;
 	height:3%;
 	background: white;
 }
-.boxmenu ul{
+.boxmenu ul.boxtop{
 	margin: 0;
 	padding: 0;
 }
-.boxmenu ul li{
+.boxmenu ul.boxtop li{
 	float: left;
 	margin-top: 30px;
 	padding: 12px 20px;
 	list-style: none;
 }
-.boxmenu ul li.hover {
+.boxmenu ul.boxtop li.hover {
 	background: #ffe31fd1;
 	border-radius: 5px;	
 }
-.boxmenu ul li.hover:hover{
+.boxmenu ul.boxtop li.hover:hover{
 	background: red;
 }
-.boxmenu ul li.hover a{
+.boxmenu ul.boxtop li.hover a{
 	padding-top: 
 }
-.boxmenu ul li a{
+.boxmenu ul.boxtop li a{
 	text-decoration:  none;
 	color: white;
 	font-size: 23px;
@@ -75,7 +77,7 @@
 	font-family: arial;
 	font-weight: 100;
 }
-.boxmenu ul li a:hover{
+.boxmenu ul.boxtop li a:hover{
 	color: blue;
 }
 @media screen and (max-width: 576px) {
@@ -95,12 +97,12 @@
 		width: 100%;
 		height:80%;
 	}
-	.boxmenu ul li{
+	.boxmenu ul.boxtop li{
 		margin-top: 25px;
 		padding: 10px 20px;
 	}
-	.boxmenu ul li a{
-		font-size: 18px;
+	.boxmenu ul.boxtop li a{
+		font-size: 17px;
 	}
 }
 @media screen and (max-width: 480px){
@@ -111,7 +113,7 @@
 		margin-bottom: 5px;
 	}
 	.boxlogo h1{
-		font-size: 35px;
+		font-size: 30px;
 		margin-left:20%;
 
 	}
@@ -122,15 +124,16 @@
 	float: right;
 	display: block;
 	width: 16%;
+	margin-top: 40px;
 	height:100%;
 }
 .bil-gach .gach{
-	margin: 19% 10%;
+	margin: 5% 10%;
 	width: 80%;
 	height:3%;
 	background: white;
 }
-	.boxmenu ul li{
+	.boxmenu{
 		display: none;
 	}
 }
